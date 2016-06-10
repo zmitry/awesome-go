@@ -5,9 +5,11 @@ var getFileData = function(url) {
       "Accept": "application/vnd.github.v3.raw"
     }
   }).done(function(data) {
-    var converter = new Showdown.converter();
-    var html = converter.makeHtml(data);
-    $("#content").html(html)
+    // var converter = new showdown.Converter({literalMidWordUnderscores: true});
+    // var html = converter.makeHtml(data);
+    var html = '<img src="https://cdn.rawgit.com/sindresorhus/awesome/master/media/logo.png" class="awesome-logo">';
+    html += marked(data);
+    $("#content").html(html);
   })
 };
 
