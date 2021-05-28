@@ -2410,6 +2410,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [richgo](https://github.com/kyoh86/richgo) - Enrich `go test` outputs with text decorations.
 * [roumon](https://github.com/becheran/roumon) - Monitor current state of all active goroutines via a command line interface.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
+* [typegen](https://github.com/starius/api2/tree/master/typegen) - generate types to typescript and open api with golang enums support. 
 * [typex](https://github.com/dtgorski/typex) - Examine Go types and their transitive dependencies, alternatively export results as TypeScript value objects (or types) declaration.
 
 ## Software Packages
